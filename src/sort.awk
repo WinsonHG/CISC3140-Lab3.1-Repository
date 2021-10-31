@@ -1,6 +1,7 @@
 BEGIN{print "grocery" }
     
-
+    FS = ","
+    
     {print}
 
 
