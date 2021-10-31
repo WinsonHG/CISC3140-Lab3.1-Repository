@@ -1,6 +1,6 @@
 BEGIN{print "grocery" }
     
-    {print $3}
+    {print $1}
 
 
 END{}
