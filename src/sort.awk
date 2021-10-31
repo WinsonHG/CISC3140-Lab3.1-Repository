@@ -37,6 +37,9 @@ BEGIN{
     domestic += $2;
     catsize += $2;
 
+    print $2
+    print hair
+
 }
  
     
