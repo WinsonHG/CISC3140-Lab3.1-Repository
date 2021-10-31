@@ -1,9 +1,17 @@
 BEGIN{
-    print ("start")
+	FS = ",";
+    grocery = "";
+    grocery_count = 0;
 
-    {print $3}
+    if(grocery != $3){
+
+        grocery = $3;
+        grocery_count++;
+        print(grocery + " " + grocery_count);
+        
+    }
+
 
 }
 END{
-    print ("finish")
 }
