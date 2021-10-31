@@ -21,28 +21,26 @@ BEGIN{
 
 {
     hair += $2;    
-    feather += $2;
-    eggs += $2;
-    milk += $2;
-    airborne += $2;
-    aquatic += $2;
-    predator += $2;
-    toothed += $2;
-    backbone += $2;
-    breathes += $2;
-    venomous += $2;
-    fins += $2;
-    legs += $2;
-    tail += $2;
-    domestic += $2;
-    catsize += $2;
+    feather += $3;
+    eggs += $4;
+    milk += $5;
+    airborne += $6;
+    aquatic += $7;
+    predator += $8;
+    toothed += $9;
+    backbone += $10;
+    breathes += $11;
+    venomous += $12;
+    fins += $13;
+    legs += $14;
+    tail += $15;
+    domestic += $16;
+    catsize += $17;
 
-    print $2
-    print hair
 
 }
  
     
 END{
-    printf "How many animals have hair: " hair
+    print hair
 }
