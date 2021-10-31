@@ -6,7 +6,7 @@ BEGIN{
     grocery_count = 0;
     
 
-    for(i in $3)
+    System.out.println("testing");
     if($3 == grocery)
         grocery_count++;
 
