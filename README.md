@@ -1,1 +1,1 @@
-Using AWK to classify the traits in different zoo animals.
+Using AWK to anaylze the traits in different zoo animals.
