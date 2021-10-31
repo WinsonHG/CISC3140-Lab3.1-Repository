@@ -1,7 +1,7 @@
 BEGIN{
     print ("start")
 
-    {print}
+    {print $3}
 
 }
 END{
