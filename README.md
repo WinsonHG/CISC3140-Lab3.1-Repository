@@ -26,7 +26,7 @@ Step 3. Navigate to the repository directory using:
 
 ## Setup
 
-Now that you have cloned the repository you can run the awk file by using the Make file command:
+Now that you have cloned the repository and navigated to the correct directory you can use the Make file command to execute the AWK script:
 
 `make -f Makefile`
 
