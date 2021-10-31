@@ -1,8 +1,14 @@
-BEGIN{print "grocery" }
-    
-    FS = ","
+BEGIN{
 
-    {print $1}
+    animal_name = "";
+    count = 0;
+
+}
+    
+    if($4 = 1)
+        printf($1 + "true");
+ 
+    
 
 
 END{}
