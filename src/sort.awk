@@ -2,7 +2,7 @@ BEGIN{print "grocery" }
     
     FS = ","
 
-    {print $2}
+    {print $1}
 
 
 END{}
