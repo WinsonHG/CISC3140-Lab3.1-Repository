@@ -1,5 +1,5 @@
 BEGIN{
-    FS = ","
+    
     animal_name = "";
     count = 0;
 
