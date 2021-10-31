@@ -1,8 +1,8 @@
 run: step1
-	awk -f src/sort.awk data/zoo_data.csv
+	awk -f sort.awk data/zoo_data.csv
 
 step1:
-	cd CISC3140LAB3
-	echo "Moving to the correct directory to execute awk file."
+	cd src
+	echo "Moving to the correct directory to execute awk file with zoo_data.csv."
 
 
