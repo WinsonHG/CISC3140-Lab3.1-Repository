@@ -5,6 +5,7 @@ BEGIN{
 
 }
 {
+    print($4);
     if($4 == "1")
        printf("%-10s" + "true",$1);
        
