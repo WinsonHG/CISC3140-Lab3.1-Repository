@@ -5,8 +5,8 @@ BEGIN{
 
 }
     
-    if($4 == 1)
-        printf($1 + "true");
+    if($4 == '1')
+        printf("%-10s" + "true",$1);
  
     
 
