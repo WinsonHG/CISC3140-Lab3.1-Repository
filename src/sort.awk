@@ -5,10 +5,7 @@ BEGIN{
 	FS = ",";
     grocery_count = 0;
     
-
-    System.out.println("testing");
-    if($3 == grocery)
-        grocery_count++;
+    print($3)
 
 
 
