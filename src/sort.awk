@@ -1,7 +1,8 @@
 BEGIN{
-    print("start")
+    
+    printf "Enter the grocery "
+    getline grocery < "-"
 	FS = ",";
-    grocery = "bread";
     grocery_count = 0;
     
 
@@ -14,6 +15,6 @@ BEGIN{
 }
 END{
 
-    print(grocery_count + " " + grocery_count)
+    print(grocery + " " + grocery_count)
 
 }
