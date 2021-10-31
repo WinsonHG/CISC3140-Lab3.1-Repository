@@ -1,5 +1,6 @@
 BEGIN{
-    print("Anaylsis of how many zoo animals have specific traits")
+    FS = ","
+    print "Anaylsis of how many zoo animals have specific traits"
     hair = 0;
     feathers = 0;
     eggs = 0;
@@ -39,8 +40,6 @@ BEGIN{
 }
  
     
-
-
 END{
-    print ("How many animals have hair: " + hair)
+    printf "How many animals have hair: " hair)
 }
