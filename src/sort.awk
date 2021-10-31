@@ -5,7 +5,7 @@ BEGIN{
 	FS = ",";
     grocery_count = 0;
     
-    print($3)
+    print{$3}
 
 
 
