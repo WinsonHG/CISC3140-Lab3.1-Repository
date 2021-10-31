@@ -1,4 +1,4 @@
-animal_name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs,tail,domestic,catsize
+animal_name,1,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs,tail,domestic,catsize
 turtle,0,0,1,0,0,1,0,0,1,1,0,0,4,1,1,1
 chameleon,0,0,1,0,0,0,0,1,1,1,0,0,4,1,1,0
 iguana,0,0,1,0,0,0,1,1,1,1,0,0,4,1,1,1
