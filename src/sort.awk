@@ -41,5 +41,5 @@ BEGIN{
  
     
 END{
-    printf "How many animals have hair: " hair);
+    printf "How many animals have hair: " hair
 }
