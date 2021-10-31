@@ -1,8 +1,9 @@
 BEGIN{
-    print ("Hello World")
+    print ("start")
 
+    {print}
 
 }
 END{
-    print ("END")
+    print ("finish")
 }
