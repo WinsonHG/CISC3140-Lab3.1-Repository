@@ -1,6 +1,5 @@
 run:
-	cd src;
-	awk -f sort.awk data/zoo_data.csv
+	awk -f src/sort.awk data/zoo_data.csv
 
 
 
