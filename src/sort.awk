@@ -58,4 +58,6 @@ END{
     print "Amount of animals that are larger than a cat: " catsize  
     print "Total amount of legs of animals: " legs
 
+    print "Total amount of animals processed: " NR
+
 }
