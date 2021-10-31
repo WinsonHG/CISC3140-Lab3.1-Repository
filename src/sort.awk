@@ -1,16 +1,13 @@
 BEGIN{
     print("start")
 	FS = ",";
-    grocery = "";
     grocery_count = 0;
 
-    if(grocery != $3){
-
-        grocery = $3;
-        grocery_count++;
-        print(grocery + " " + grocery_count);
-        
-    }
+    for(i=1;i<=NF;i++){
+                a[$3]++;
+                grocery_count++;
+        }
+}
 
 
 }
