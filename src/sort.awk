@@ -43,7 +43,7 @@ BEGIN{
     
 END{
     print "Amount of animals that have hair: " hair
-    print "Amount of animals that have feather: " feather
+    print "Amount of animals that have feathers: " feather
     print "Amount of animals that produce milk: " milk
     print "Amount of animals that can fly: " airborne
     print "Amount of animals that live underwater: " aquatic
