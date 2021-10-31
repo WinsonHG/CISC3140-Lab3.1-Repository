@@ -43,4 +43,5 @@ BEGIN{
     
 END{
     print hair
+    
 }
