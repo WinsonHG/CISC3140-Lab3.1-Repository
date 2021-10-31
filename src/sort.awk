@@ -42,6 +42,6 @@ BEGIN{
  
     
 END{
-    print hair
-    
+    print "How many animals have hair" hair
+
 }
