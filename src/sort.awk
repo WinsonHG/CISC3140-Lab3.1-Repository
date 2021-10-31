@@ -1,6 +1,7 @@
 BEGIN{
     FS = ","
     print "Anaylsis of how many zoo animals have specific traits"
+    #creating variables for different animal traits
     hair = 0;
     feathers = 0;
     eggs = 0;
@@ -20,6 +21,7 @@ BEGIN{
 }
 
 {
+    #calculating the sum of traits each animal has by column
     hair += $2;    
     feather += $3;
     eggs += $4;
@@ -42,6 +44,7 @@ BEGIN{
  
     
 END{
+    #printing the analyzed data
     print "Amount of animals that have hair: " hair
     print "Amount of animals that have feathers: " feather
     print "Amount of animals that produce milk: " milk
