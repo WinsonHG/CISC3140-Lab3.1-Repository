@@ -1,4 +1,5 @@
 BEGIN{
+    print("start")
 	FS = ",";
     grocery = "";
     grocery_count = 0;
