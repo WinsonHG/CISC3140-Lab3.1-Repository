@@ -1,15 +1,19 @@
 BEGIN{
     print("start")
 	FS = ",";
+    grocery = "bread";
     grocery_count = 0;
+    
 
-    for(i=1;i<=NF;i++){
-                a[$3]++;
-                grocery_count++;
-        }
+
+    if($3 == grocery)
+        grocery_count++;
+
+
+
 }
-
-
-
 END{
+
+    print(grocery_count + " " + grocery_count)
+
 }
