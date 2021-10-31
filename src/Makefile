@@ -1,4 +1,4 @@
 run: 
-	awk -f src/sort.awk data/zoo2.csv
+	awk -f src/sort.awk data/zoo_data.csv
 
 
